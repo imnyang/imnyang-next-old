@@ -1,0 +1,27 @@
+#profile {
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+    justify-content: center;
+  
+    width: 500px;
+    height: 100vh;
+    
+    background-color: #373236;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+#profile img {
+    user-select: none;
+    pointer-events: none;
+}
+
+/* Mobile */
+@media (max-width: 850px) {
+    #profile {
+        width: 100%;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+}
